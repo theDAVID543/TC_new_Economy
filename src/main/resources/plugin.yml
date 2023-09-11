@@ -1,0 +1,11 @@
+name: TC_new_Economy
+version: '${project.version}'
+main: thedavid.tc_new_economy.TC_new_Economy
+api-version: '1.20'
+commands:
+  tceconomy:
+    aliases: "tce"
+    usage: "/tce"
+depend:
+  - CoinsEngine
+  - XConomy
