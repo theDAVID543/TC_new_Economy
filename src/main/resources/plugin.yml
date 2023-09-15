@@ -3,9 +3,13 @@ version: '${project.version}'
 main: thedavid.tc_new_economy.TC_new_Economy
 api-version: '1.20'
 commands:
+  tceconomyadmin:
+    aliases: "tcea"
+    usage: "/tcea"
+    permission: "op"
   tceconomy:
     aliases: "tce"
     usage: "/tce"
 depend:
   - CoinsEngine
-  - XConomy
+  - PlaceholderAPI
